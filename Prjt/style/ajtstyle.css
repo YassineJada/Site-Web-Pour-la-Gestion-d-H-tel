@@ -1,0 +1,165 @@
+eader style */
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+	font-family: 'Nomark';
+	src: url('../polices/DALMANTI.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+header{
+    border: 1px solid black;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0,0 ,0.4);
+    color: white;
+    box-shadow: 4px 2px 15px black;
+    height: 150px;
+}
+
+.logo h1{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    font-family: Nomark;
+    font-size: 4.5em;
+}
+nav ul{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    width: 800px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-top: 2%;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: Nomark;
+ }
+nav ul li a:hover{
+    /* border: 1px solid red; */
+     font-size: 2.4em;
+     /* border-bottom: 2px solid red; */
+     padding: 7px 7px;
+     transition: 1s;
+
+     color: white;
+ }
+ 
+ .A
+{
+    width: 100%;
+    height: 600px;
+    /* background-image: url(../img/1111.jpg); */
+    background-size: cover;
+}
+.B
+{
+    
+    width: 50%;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: 350px;
+    margin-top: 80px;
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    justify-content: space-between;
+}
+.aa
+{
+    margin-top: 10px;
+   margin-left: 20px;
+   width: 70%;
+   color: black;
+}
+.aa span
+{
+    margin-top: 20px;
+   margin-left: 0px;
+   width: 70%;
+   color: white;
+}
+.txt
+{
+    font-family: Nomark;
+    font-size: 3.5em;
+    margin-left: 440px;
+    margin-top: 70px;
+}
+.bb
+{
+    margin-top: 10px;
+    width: 70%;
+    margin-left: -40px;
+    color: black;
+}
+.bb span
+{
+    width: 70%;
+    color: white;
+}
+
+.slct
+{
+    margin-top: 50px;
+    margin-left: -100px;
+    height: 38px;
+    width: 40%;
+}
+
+.btn
+{
+    font-size: 1.3em;
+    margin-top: 50px;
+    margin-left: 680px;
+}
+.btn2
+{
+    font-size: 1em;
+    margin-top: -480px;
+    margin-left: 1410px;
+    padding: 4px;
+    border-radius: 0.3em;
+    height: 45px;
+    list-style: none;
+    text-decoration: none;
+}
+.env
+/* {
+    width: 50%;
+    margin-left: 810px;
+} */
+.aaa
+{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.aaa :hover
+{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}

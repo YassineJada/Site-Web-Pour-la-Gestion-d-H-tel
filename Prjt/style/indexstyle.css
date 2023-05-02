@@ -1,0 +1,509 @@
+/* header style */
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+	font-family: 'Nomark';
+	src: url('../polices/DALMANTI.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+header{
+    border: 1px solid black;
+    width: 99.9%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0,0 ,0.4);
+    color: white;
+    box-shadow: 4px 2px 15px black;
+    height: 150px;
+}
+
+.logo h1{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    font-family: Nomark;
+    font-size: 4.5em;
+}
+nav ul{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    width: 800px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-top: 2%;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: Nomark;
+ }
+nav ul li a:hover{
+    /* border: 1px solid red; */
+     font-size: 2.4em;
+     border-bottom: 2px solid white; 
+     padding: 7px 7px;
+     transition: 1s;
+
+     color: white;
+ }
+
+
+#login
+{
+    width: 800px;
+    margin:  auto;
+    margin-top: 50px;
+    margin-left: 200px;
+    /* border: 2px solid red; */
+    font-size: 1.4em;
+}
+#login h1
+ {
+     font-family: Nomark;
+     padding-bottom: 50px;
+     margin-left: 385px;
+     font-size: 3em;
+     color: black;
+ }
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* sction style  */
+
+#home{
+    border: 1px solid black;
+    height: 750px;
+    background-image: url(../img/5.jpg);
+}
+.A
+{
+    /*border: 2px solid white;*/
+    font-family: Nomark;
+    color: white;
+    height: 80px;
+    margin-top: 340px;
+    font-size: 5em;
+    text-align: center;
+}
+#about,#rooms,#gallery,#contact
+{
+    height: 750px;
+    border: 1px solid white;
+}
+
+#about
+{
+    padding-top: 10px;
+}
+.titre1 h1
+{
+    /* border: 2px solid black; */
+    font-family: Nomark;
+    height: 40px;
+    margin-top: 190px;
+    text-align: center;
+    font-size: 2.8em;
+    color: rgb(0, 0,0 ,0.4);;
+
+}
+.S
+{
+    /* border: 1px solid black; */
+    height: 170px;
+    display: flex;
+}
+.B,.C,.D,.E
+{
+    border: 2px solid  rgb(42, 75, 173);
+    height: 170px;
+    width: 200px;
+    margin-left: 140px;
+    border-radius: 1.5em;
+}
+.B img
+{
+    margin-left: 70px;
+    height: 80px;
+    width: 70px;
+    border-radius: 1.5em;
+}
+.C img
+{
+    margin-left: 70px;
+    height: 80px;
+    width: 70px;
+    border-radius: 1.5em;
+}
+.D img
+{
+    margin-left: 70px;
+    height: 80px;
+    width: 70px;
+    border-radius: 1.5em;
+}
+.E img
+{
+    margin-left: 70px;
+    height: 80px;
+    width: 70px;
+    border-radius: 1.5em;
+}
+.B h2
+{
+    font-family: Nomark;
+    text-align: center;
+    color: rgb(0, 0,0 ,0.6);
+}
+.C h2
+{
+    font-family: Nomark;
+    text-align: center;
+    color: rgb(0, 0,0 ,0.6);
+}
+.D h2
+{
+    font-family: Nomark;
+    text-align: center;
+    color: rgb(0, 0,0 ,0.6);
+}
+.E h2
+{
+    font-family: Nomark;
+    text-align: center;
+    color: rgb(0, 0,0 ,0.6);
+}
+
+.A1 h1
+{
+    /* border: 2px solid black; */
+    font-family: Nomark;
+    height: 40px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.8em;
+    color: rgb(0, 0,0 ,0.4);
+    margin-left: 500px;
+    width: 200px;
+}
+
+.A1 p
+{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    width: 380%;
+    text-align: center;
+    font-size: 1.6em;
+    margin-left: 20px;
+}
+
+.R
+{
+    
+    height: 300px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.RR
+{
+    /* border: 2px solid black; */
+    height: 300px;
+    display: flex;
+}
+
+.R1 img
+{
+    padding-top: 15px;
+    height: 280px;
+    width: 380px;
+    margin-right: 170px;
+}
+.R2 img
+{
+    margin-left: 130px;
+    padding-top: 15px;
+    height: 280px;
+    width: 380px;
+}
+.R3 img
+{
+    padding-top: 15px;
+    height: 280px;
+    width: 380px;
+}
+.R4 img
+{
+    padding-top: 15px;
+    margin-left: 140px;
+    height: 280px;
+    width: 380px;
+}
+.R11
+{
+    height: 250px;
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 0.8em;
+    border-right: 1px solid black;
+    border-radius: 3em;
+    margin-left: -130px;
+    border-right: 2px solid black;
+    border-radius: 3em;
+}
+.R11 p
+{
+    padding-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 1.4em;
+}
+
+.R22
+{
+    height: 250px;
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 0.8em;
+    border-right: 1px solid black;
+    border-radius: 3em;
+    border-right: 2px solid black;
+    border-radius: 3em;
+    margin-right: 50px;
+}
+.R22 p
+{
+    padding-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 1.4em;
+}
+.R33
+{
+    /* padding-top: 20px; */
+    text-align: center;
+    width: 250px;
+    font-size: 0.8em;
+    margin-left: 50px;
+    border-right: 2px solid black;
+    border-radius: 3em;
+    height: 270px;
+    margin-top: 20px;
+}
+.R33 p
+{
+    padding-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 1.4em;
+}
+.R44
+{
+    height: 250px;
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 0.8em;
+    margin-left: 10px;
+    border-right: 2px solid black;
+    border-radius: 3em;
+}
+.R44 p
+{
+    padding-top: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 1.4em;
+}
+
+#Menu{
+
+    margin-top: 120px;
+    margin-left: 1270px;
+    transition: 1s;
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    background-color: rgb(187, 98, 47);
+    display: none;
+    line-height: 40px;
+    border-radius: 3em;
+}
+#Menu ul
+{
+    margin-top: 5px;
+    margin-left: -10px;
+}
+#Menu ul li
+{
+    font-family: Nomark;
+    list-style: none;
+    font-size: 1.8em;
+   
+}
+#Menu ul li a 
+{
+    color: white;
+    text-align: center;
+     text-decoration: none;
+}
+#Menu ul li a:hover
+{
+    font-size: 1.4em;
+    /* padding: 7px 7px; */
+    transition: 1s;
+}
+
+.ph
+{
+    margin-top: 200px;
+}
+#photo
+{
+    height: 400px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px;
+
+}
+
+#p1
+{
+    height: 400px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px;
+    margin-left: 250px;
+
+}
+
+#gallery
+{
+    display: flex;
+    margin-left: 150px;
+}
+
+.AAA
+{
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.A1 img
+{
+
+    height: 150px;
+}
+.A2 img
+{
+
+    height: 150px;
+}
+.A3 img
+{
+
+    height: 150px;
+}
+.A1
+{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 180px;
+    margin-left: 150px;
+}
+.A2
+{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 180px;
+}
+.A3
+{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 180px;
+}
+
+.BBB
+{
+    width: 99.9%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.B1 h1
+{
+    width: 20%;
+    height: 50px;
+    margin-left: 150px;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.B2 h1
+{
+    width: 20%;
+    height: 50px;
+    margin-left: 310px;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.B3 h1
+{
+    width: 60%;
+    height: 100px;
+    margin-left: 200px;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.social
+{
+    height: 40px;
+    width: 11.5%;
+    margin-top: 135px;
+    margin-left: 1340px;
+}
+
+.social img
+{
+    height: 40px;
+}
+.us
+{
+    font-family: Nomark;
+    font-size: 4em;
+    margin-top: 180px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}

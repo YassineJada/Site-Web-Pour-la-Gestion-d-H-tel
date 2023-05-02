@@ -1,0 +1,149 @@
+
+/* header style */
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+	font-family: 'Nomark';
+	src: url('../polices/DALMANTI.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+header{
+    border: 1px solid black;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0,0 ,0.4);
+    color: white;
+    box-shadow: 4px 2px 15px black;
+    height: 150px;
+}
+
+.logo h1{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    font-family: Nomark;
+    font-size: 4.5em;
+}
+nav ul{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    width: 800px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-top: 2%;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: Nomark;
+    color: white;
+ }
+nav ul li a:hover{
+    /* border: 1px solid red; */
+     font-size: 2.4em;
+     /* border-bottom: 2px solid red; */
+     padding: 7px 7px;
+     transition: 1s;
+     color: white;
+
+ }
+
+
+#sign
+{
+    width: 80%;
+    margin:  auto;
+    margin-top: 100px;  
+} 
+
+.Mo
+{
+    font-family: Nomark;
+    margin-left: 350px;
+    padding-bottom: 50px;
+    margin-top: -70px;
+    font-size: 3em;
+}
+#sign h3
+{
+    font-family: Nomark;
+    font-size: 1.5em;
+    margin-top: -50px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+
+.btn
+{
+    font-size: 1.3em;
+    border-radius: 0.5em; 
+    margin-left: 550px;
+}
+.btn3
+{
+    font-size: 1.3em;
+    border-radius: 0.5em; 
+    margin-left: 450px;
+}
+
+
+.slct
+{
+    width: 38%;
+    height: 38px;
+    margin-top: 48px;
+    margin-left: 20px;
+}
+
+.adr
+{
+    width: 60%;
+}
+.confirmer
+{
+    margin-left: 10px;
+}
+.I
+{
+    margin-left: 350px;
+    font-family: Nomark;
+    font-size: 3em;
+    margin-top: -50px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+}
+.btn2
+{
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 125px;
+    padding: 4px;
+    border-radius: 0.5em;
+}
+.aa
+{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADA HOTEL</title>
+    <link rel="stylesheet" href="style/indexstyle.css">
+    <link rel="icon" href="img/icon.jpg" type="img/jpeg" />
+</head>
+<body>
+
+    
+
+    <section id="home">
+        <header>
+            <div class="logo">
+                <h1>JADA HOTEL</h1>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#"  onclick="display(); ">Réservation</a></li>
+                </ul>
+            </nav>
+            
+</header>
+
+        <div id="Menu">
+            <ul>
+                <li> <a href="Php/admin.php"> Sign Up </a></li>
+                <li> <a href="Php/login.php">Login </a> </li>
+    
+            </ul>
+
+            <script>
+                
+                
+                function hide(){
+                    var a = document.getElementById("Menu");
+                    a.style.display="unset";
+                }
+
+                function display(){
+                   var a = document.getElementById("Menu");
+                    if(a.style.display=="none"){
+                       a.style.display="unset";
+                  }else{ 
+                       a.style.display="none";
+                        }
+  
+                 }
+
+                function display1(){
+                    var a = document.getElementById("Menu");
+                    a.style.display="none";
+                }
+
+       
+                window.addEventListener('click', function(e){
+	
+              if (!document.getElementById('Menu').contains(e.target)  && !document.getElementById('inscrit').contains(e.target) ){
+                
+                display1();
+                //    a.style.display=="none" ;
+        
+                  } 
+                })
+                 
+
+            </script>
+    
+        </div> 
+        <div class="A">
+            <p>Right Place Right Time</p> 
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="titre1">
+            <h1>Services</h1>
+        </div>
+        <div class="S">
+        <div class="B">
+        <img src="img/2.jpg" >
+        <h2>Free Wireless Internet Acces</h2>
+        </div>
+        <div class="C">
+            <img src="img/2.jpg" >
+            <h2>24-Hour Room Service</h2>
+        </div>
+        <div class="D">
+            <img src="img/2.jpg" >
+            <h2>Laundry Service</h2>
+        </div>
+        <div class="E">
+            <img src="img/2.jpg" >
+            <h2>24-Hour Doctor On Call</h2>
+        </div>
+    </div>
+    <div class="Abt">
+        <div class="A1">
+            <h1>About Us</h1>
+            <p>We have 72 comfortably equipped rooms inculding two suites : The president suit and the ambassador suite , with over one hundred metres of surface area , which are sure to awe even the most demanding guests . We offer 7 rooms , where we have been preparing family and business meetings already for 15 years ..</p>
+        </div>
+    </div>
+    </section>
+	<section id="rooms">
+        <div class="R">
+      
+            <div class="R1">
+                <img src="img/3333.jpg" >
+                <p></p>
+            </div>
+            <div class="R11">
+                <p> A Single Room is for one person and contains a single bed , and will usually be quite small </p>
+                <h3>Max Adult : 1</h3>
+                <h3>Max Child : 2</h3>
+                <h3>Room facilities 24-Hour room service , free wireless internet Acces</h3>
+
+            </div>
+            <div class="R2">
+                <img src="img/333.jpg" >
+            </div>
+            <div class="R22">
+                <p> A Double Room is for two person and contains a single big bed , comfortably </p>
+                <h3>Max Adult : 2</h3>
+                <h3>Max Child : 1</h3>
+                <h3>Room facilities 24-Hour room service , free wireless internet Acces</h3>
+            </div>
+        </div>
+        <div class="RR">
+            <div class="R3">
+                <img src="img/33333.jpg" >
+            </div>
+            <div class="R33">
+                <p> A Double Room is for two person and contains a two singles bed , that is to comfortably  </p>
+                <h3>Max Adult : 2</h3>
+                <h3>Max Child : 1</h3>
+                <h3>Room facilities 24-Hour room service , free wireless internet Acces</h3>           
+            </div>
+            <div class="R4">
+                <img src="img/33.jpg" >
+            </div>
+            <div class="R44">
+                <p> A Triple Room is for three people , may be configured with defferent bed size , comfortably </p>
+                <h3>Max Adult : 3</h3>
+                <h3>Max Child : 1</h3>
+                <h3>Room facilities 24-Hour room service , free wireless internet Acces</h3>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section id="gallery">
+        
+        <div id="photo">
+           
+       </div>
+    <script>
+        var i=0;
+  var img = [];
+  var timeout=2000;
+  var textar =[];
+  var j=0;
+
+
+
+
+function changeim(){
+document.getElementById('photo').style.backgroundImage = img[i];
+// if(i < img.length - 1){
+// i++
+// }else{
+// i=0;
+// }
+setTimeout ("changeim()", timeout);
+}
+ window.onload = changeim();
+    </script>
+
+<div id="p1">
+           
+</div>
+<script>
+ var i=0;
+var img = [];
+var timeout=2000;
+var textar =[];
+var j=0;
+
+
+img[0] = 'url(img/11.jpg)';
+img[1] = 'url(img/10.jpg)';
+img[2] = 'url(img/12.jpg)';
+img[3] = 'url(img/13.jpg)';
+img[4] = 'url(img/333.jpg)';
+img[5] = 'url(img/33333.jpg)';
+img[6] = 'url(img/6.jpg)';
+img[7] = 'url(img/7.jpg)';
+img[8] = 'url(img/8.jpg)';
+img[9] = 'url(img/9.jpeg)';
+img[10] = 'url(img/33.jpg)';
+img[11] = 'url(img/3333.jpg)';
+img[12] = 'url(img/55.jpg)';
+
+
+function bahja(){
+document.getElementById('p1').style.backgroundImage = img[i];
+if(i < img.length - 1){
+i++
+}else{
+i=0;
+}
+setTimeout ("bahja()", timeout);
+}
+window.onload = bahja();
+</script>
+    </section>
+
+    
+
+   
+
+	<section id="contact">
+        <div>
+            <h1 class="us">Contact Us</h1>
+            <div class="AAA">
+                <div class="A1">
+                    <img src="img/allo 1.jpg">
+                </div>
+                <div class="A2">
+                    <img src="img/allo 2.jpg">
+                </div>
+                <div class="A3">
+                    <img src="img/allo 3.jpg">
+                </div>
+            </div>
+            <div class="BBB">
+                <div class="B1">
+                <h1>0522232433</h1>
+                </div>
+                <div class="B2">
+                    <h1>Jada.hotel@gmail.com</h1>
+                </div>
+                <div class="B3">
+                    <h1>Boulevard La plage , Ain Diab , Casablanca , Morocco </h1>
+                </div>
+            </div>
+            <div class="social">
+                <a href="" ><img src="img/Fb.jpeg" ></a>
+                <a href=""  ><img src="img/Insta.jpeg"></a>
+                <a href="" ><img src="img/Messenger.jpeg" ></a>
+                <a href=""><img src="img/Ytb.jpeg" ></a>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
